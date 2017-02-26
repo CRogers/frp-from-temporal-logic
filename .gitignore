@@ -1,0 +1,5 @@
+.idea/
+.stack-work/
+dist/
+*.iml
+*.ipr

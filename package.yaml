@@ -1,0 +1,21 @@
+name:                frp-from-temporal-logic
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/CRogers/frp-from-temporal-logic#readme
+license:             BSD3
+author:              Callum Rogers
+maintainer:          callumrogers@hotmail.co.uk
+copyright:           Callum Rogers
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - transformers
+
+executables:
+  frp-from-temporal-logic:
+    source-dirs:      src
+    main:             Main.hs
